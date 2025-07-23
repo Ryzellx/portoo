@@ -3,13 +3,13 @@ import { motion } from 'framer-motion'
 import { Code, Palette, Smartphone, Database, Globe, Zap } from 'lucide-react'
 
 const skills = [
-  { name: "React.js", level: 76, icon: Code, color: "from-blue-500 to-cyan-500" },
-  { name: "TailwindCSS", level: 78, icon: Palette, color: "from-teal-500 to-green-500" },
-  { name: "Next.js", level: 83, icon: Globe, color: "from-gray-700 to-gray-900" },
-  { name: "UI/UX Design", level: 75, icon: Palette, color: "from-pink-500 to-rose-500" },
-  { name: "Mobile Dev", level: 67, icon: Smartphone, color: "from-purple-500 to-indigo-500" },
-  { name: "Database", level: 74, icon: Database, color: "from-orange-500 to-red-500" },
-  { name: "Performance", level: 79, icon: Zap, color: "from-yellow-500 to-orange-500" }
+  { name: "React.js", level: 74, icon: Code, color: "from-blue-500 to-cyan-500" },
+  { name: "TailwindCSS", level: 69, icon: Palette, color: "from-teal-500 to-green-500" },
+  { name: "JavaScript", level: 73, icon: Globe, color: "from-gray-700 to-gray-900" },
+  { name: "PHP", level: 68, icon: Palette, color: "from-pink-500 to-rose-500" },
+  { name: "C++", level:57, icon: Smartphone, color: "from-purple-500 to-indigo-500" },
+  { name: "Python", level: 72, icon: Database, color: "from-orange-500 to-red-500" },
+  { name: "Performance", level: 78, icon: Zap, color: "from-yellow-500 to-orange-500" }
 ]
 
 const containerVariants = {
@@ -109,10 +109,10 @@ export default function Skills() {
         <div className="glass-effect rounded-2xl p-8 max-w-2xl mx-auto">
           <h3 className="text-2xl font-bold mb-4 gradient-text">Always Learning</h3>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            Sebagai Gen Z developer, saya selalu update dengan teknologi terbaru dan tren industry. 
+            Sebagai Web Developer, saya selalu update dengan inovasi/ide terbaru dan mengikuti tren sekarang. 
             Currently exploring <span className="font-semibold text-blue-500">Web3</span>, 
-            <span className="font-semibold text-purple-500"> AI/ML</span>, dan 
-            <span className="font-semibold text-green-500"> Cloud Architecture</span> 🌟
+            <span className="font-semibold text-purple-500"> UI/UX</span>, dan 
+            <span className="font-semibold text-green-500"> Ai Development</span> 🌟
           </p>
         </div>
       </motion.div>

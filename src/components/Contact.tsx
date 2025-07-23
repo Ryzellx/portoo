@@ -62,7 +62,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800 dark:text-white">Email</p>
-                  <p className="text-gray-600 dark:text-gray-300">fiksi.nama@email.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">whoryzell@gmail.com</p>
                 </div>
               </motion.div>
               
@@ -75,7 +75,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800 dark:text-white">Discord</p>
-                  <p className="text-gray-600 dark:text-gray-300">fiksinama#1234</p>
+                  <p className="text-gray-600 dark:text-gray-300">turiable</p>
                 </div>
               </motion.div>
             </div>
@@ -92,7 +92,7 @@ export default function Contact() {
             </div>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
               Saya biasanya online di malam hari (night owl vibes 🦉) dan selalu excited 
-              untuk diskusi tentang teknologi terbaru, design trends, atau bahkan meme programming! 😄
+              untuk diskusi tentang inovasi terbaru, design trends, atau bahkan teknologi keren!
             </p>
           </motion.div>
         </motion.div>

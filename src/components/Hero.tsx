@@ -61,7 +61,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        Gen Z creative developer yang passionate tentang teknologi cutting-edge, 
+        Web Developer yang passionate tentang teknologi cutting-edge, 
         design modern yang aesthetic, dan pengalaman pengguna yang{' '}
         <span className="font-semibold text-blue-500 dark:text-blue-400">smooth banget</span>. 
         Mari berkolaborasi dan create something amazing! ✨

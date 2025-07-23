@@ -4,25 +4,46 @@ import { ExternalLink, Github, Star, TrendingUp } from 'lucide-react'
 
 const projects = [
   {
-    name: "Calculator Modern",
-    desc: "Calculator modern complete dengan animasi halus, dan fitur kalkulasi canggih.",
+    name: "Calculator Lengkap",
+    desc: "Calculator yang bisa melakukan berbagai operasi matematika kompleks dengan UI yang sleek.",
     link: "https://calculator.ryzell.my.id",
-    github: "https://github.com/ryzellx/kalkulator",
-    tags: "HTML", "CSS", "JavaScript",],
+    github: "https://github.com/Ryzellx/kalkulator",
+    tags: ["HTML", "CSS", "JavaScript"],
     status: "Live",
     stars: 124,
-    image: "https://www.google.com/imgres?q=kalkulator&imgurl=https%3A%2F%2Fteknologi.visitklaten.com%2Fwp-content%2Fuploads%2F2022%2F06%2FMembuat-Kalkulator-HTML-CSS.webp&imgrefurl=https%3A%2F%2Fteknologi.visitklaten.com%2Fwordpress%2Fmembuat-kalkulator-html-css%2F&docid=O4q4Sc6sslj-NM&tbnid=nrHFAh8yW5geGM&vet=12ahUKEwiHi43NudCOAxXO4zgGHSrTO8s4ChAzegQINRAA..i&w=750&h=430&hcb=2&ved=2ahUKEwiHi43NudCOAxXO4zgGHSrTO8s4ChAzegQINRAA"
+    image: "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     name: "Online Store",
     desc: "E-commerce platform dengan payment gateway, inventory management, dan analytics dashboard.",
     link: "https://toko-orpin.vercel.app/",
-    github: "https://github.com/ryzellx/toko",
-    tags: ["Next.js", "JavaScript", "PHP", "React"],
+    github: "https://github.com/Ryzellx/toko",
+    tags: ["Next.js", "Tailwind CSS", "JavaScript", "React", "PHP"],
     status: "In Development",
     stars: 89,
     image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
+  {
+    name: "Linktr Clone",
+    desc: "Shortcut link service untuk mengelola semua link penting di satu tempat.",
+    link: "https://www.ryzell.my.id/",
+    github: "https://github.com/Ryzellx/shortcut-sosmed",
+    tags: ["HTML", "CSS", "JavaScript"],
+    status: "Live",
+    stars: 67,
+    image: "https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    name: "Jakarta Projects",
+    desc: "Server GTA SA:MP Build by Baizalq",
+    link: "https://discord.gg/jprp",
+    github: "",
+    tags: ["Pawno", "C"],
+    status: "Beta",
+    stars: 156,
+    image: "https://cdn.discordapp.com/attachments/1391311263925276772/1391311413091238000/1751605644257.png?ex=6880873a&is=687f35ba&hm=6f7ef877ec16f1931439c48245230757f03c822c5d56f6642a876264282f88e8&"
+  }
+]
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -154,10 +175,4 @@ export default function Portfolio() {
           className="inline-flex items-center gap-2 px-6 py-3 glass-effect text-gray-700 dark:text-gray-300 rounded-full font-medium border border-gray-200 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300"
           whileHover={{ scale: 1.05 }}
         >
-          <TrendingUp className="w-5 h-5" />
-          View All Projects
-        </motion.a>
-      </motion.div>
-    </section>
-  )
 }

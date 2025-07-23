@@ -38,7 +38,7 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.6 }}
         >
-          &copy; 2025 Fiksi Nama | Gen Z Portfolio ✨
+          &copy; 2025 whoryzell | Web Developer ✨
         </motion.div>
       </footer>
     </div>
